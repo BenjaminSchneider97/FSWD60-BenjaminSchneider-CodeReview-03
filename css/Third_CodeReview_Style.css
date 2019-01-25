@@ -219,6 +219,10 @@ body{
 	}
 	#insuranceoutput h1{
 		margin-top: 0;
+		font-size: 2em;
+	}
+	.inputtext{
+		font-size: 3em;
 	}
 }
 @media screen and (max-width: 500px){
