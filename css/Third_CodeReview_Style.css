@@ -112,7 +112,7 @@ body{
 	text-align: center;
 }
 .btnuoutput button{
-	margin: 15px auto 30px;
+	margin: 15px auto 15px;
 	width: 30%;
 	height: 50px;
 	background-color: #339235;
@@ -126,7 +126,7 @@ body{
 	margin: 20px auto;
 }
 #insuranceoutput h1{
-	margin: 0;
+	margin: 40px 0 0 0;
 	color: #339235;
 	font-size: 1.5em;
 }
@@ -149,7 +149,36 @@ body{
 	margin: 0;
 	font-size: 1.5em;
 }
-
+.infoboxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 100px 0;
+}
+.box{
+	flex-basis: 40%;
+	box-shadow: 1px 1px 2px, -1px -3px 1px;
+	padding-left: 5%;
+}
+.box h2{
+	color: #516381;
+	margin-bottom: 0;
+}
+.box p{
+	margin-top: 5px;
+}
+.box ul{
+	list-style-type: none;
+	padding: 0;
+}
+.box ul li{
+	padding: 10px 0;
+}
+.box ul li i{
+	font-size: 1.5em;
+	padding-right: 10px;
+	color: #8ED2D4;
+}
 
 
 
