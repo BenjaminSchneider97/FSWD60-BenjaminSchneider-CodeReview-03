@@ -19,7 +19,8 @@ function calculateInsurancePerCountry(){
 			var price = hp*120/age+100;	
 		}
 		else{
-			var price = hp*150/age+50;
+			var sum = Number(age)+3;
+			var price = hp*150/sum+50;
 		}
 
 		var sentence = document.createTextNode (name + ", your insurance price is: €" + price.toFixed(2));
