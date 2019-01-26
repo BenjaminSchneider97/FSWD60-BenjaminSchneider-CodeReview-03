@@ -23,8 +23,7 @@
 				<li><a href="team.html" title="Team"><span class="currentsite">Team</span></a></li>
 			</ul>
 		</nav>
-		<div class="contentwrapper">
-			<p id="team"></p>
+		<div id="team">
 		</div>
 		<footer class="footer">
 			<div class="navbarbottom">
@@ -44,7 +43,10 @@
 	<script src="json/Third_CodeReview_JSON.json"></script>
 
 	<script>
-		document.getElementById("team").innerHTML = teamMembers[0].name;
+		document.getElementById("team").innerHTML = `
+		<h1 class="teamheading">This is our team! (currently ${teamMembers.length} members)</h1>
+		${teamMembers}
+		`
 	</script>
 </body>
 </html>
