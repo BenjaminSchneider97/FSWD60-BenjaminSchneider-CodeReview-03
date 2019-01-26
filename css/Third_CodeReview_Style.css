@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	font-family: 'Rubik', sans-serif;
 }
+/* styling for header */
 .header{
 	background-color: #FFF3F3;
 	width: 100%;
@@ -15,6 +16,7 @@ body{
 .header .img2{
 	margin: auto 20px auto auto;
 }
+/* styling for navbar */
 .navbar{
 	background-color: #8E1616;
 	margin: 0;
@@ -42,10 +44,12 @@ body{
 	color: #fff;
 	transition: 0.3s;
 }
+/* for everything to be 90% width */
 .contentwrapper{
 	width: 90%;
 	margin: 0 auto;
 }
+/* The traffic image */
 .bgimg{
 	margin-bottom: -4px;
 }
@@ -54,6 +58,7 @@ body{
 	height: auto;
 	margin: 0;
 }
+/* The car insurance sentence at the top */
 .carinsurance{
 	font-size: 2.5em;
 	color: #fff;
@@ -61,6 +66,7 @@ body{
 	top: 175px;
 	left: 10%;
 }
+/* styling for the input fields */
 .userinputs{
 	width: 75%;
 	background-color: rgb(255, 255, 255, .7);
@@ -106,6 +112,7 @@ body{
 	font-size: 1.25em;
 	padding-left: 5px;
 }
+/* styling for the button */
 .btnuoutput{
 	width: 100%;
 	text-align: center;
@@ -121,6 +128,7 @@ body{
 	border-radius: 15px;
 	outline: none;
 }
+/* styling for the sentence displaying the price */
 #insuranceoutput{
 	margin: 20px auto;
 }
@@ -129,6 +137,7 @@ body{
 	color: #339235;
 	font-size: 1.5em;
 }
+/* for the text with the grey background */
 .textwrapper{
 	width: 100%;
 	background-color: #CECECE;
@@ -148,6 +157,7 @@ body{
 	margin: 0;
 	font-size: 1.5em;
 }
+/* styling for the infoboxes */
 .infoboxes{
 	display: flex;
 	flex-wrap: wrap;
@@ -178,6 +188,7 @@ body{
 	padding-right: 10px;
 	color: #8ED2D4;
 }
+/* styling for the footer */
 .footer{
 	width: 100%;
 	background-color: #000;
@@ -211,6 +222,7 @@ body{
 	color: white;
 	font-size: 1.3em;
 }
+/* media query for fullscreen layout for a bigger inputarea */
 @media screen and (min-width: 1500px){
 	.userinputs{
 		height: 750px;
@@ -224,6 +236,7 @@ body{
 		font-size: 3em;
 	}
 }
+/* media query for tablet mode */
 @media screen and (max-width: 500px){
 	.btnuoutput button{
 		width: 50%;
@@ -265,10 +278,12 @@ body{
 		margin-bottom: 50px;
 	}
 }
+/* styling for team page */
 .teamheading{
 	margin-top: 35px;
 	text-align: center;
 }
+/* styling for the individual members and their divs */
 .member{
 	width: 50%;
 	height: 200px;

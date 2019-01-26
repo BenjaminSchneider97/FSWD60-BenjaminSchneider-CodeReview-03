@@ -23,6 +23,7 @@
 				<li><a href="team.html" title="Team"><span class="currentsite">Team</span></a></li>
 			</ul>
 		</nav>
+		<!-- This is where the heading and the employees from the json file going to be -->
 		<div id="team">
 		</div>
 		<div id="members">
@@ -46,7 +47,7 @@
 	<script>
 		function displaymembers(members) {
 
-			for(i=0; i < teamMembers.length; i++){
+			for(i=0; i < teamMembers.length; i++){ //loop to go through the json teamMembers array
 
 			document.getElementById("members").innerHTML +=`
 				<div class ="member">
@@ -63,11 +64,11 @@
 				`
 			}
 		}
-
+		//heading over the teamlist
 		document.getElementById("team").innerHTML = `
 		<h1 class="teamheading">This is our team! (currently ${teamMembers.length} members)</h1>
 		`
-		displaymembers();
+		displaymembers();//calls the function to display the teammembers
 	</script>
 </body>
 </html>
