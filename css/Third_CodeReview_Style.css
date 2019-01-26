@@ -270,3 +270,32 @@ body{
 	margin-top: 35px;
 	text-align: center;
 }
+.member{
+	width: 50%;
+	height: 200px;
+	background-color: #FFF3F3;
+	margin: 35px auto;
+	box-shadow: 1px 1px 1px, -1px -1px 1px;
+	display: flex;
+}
+.memberimg{
+	display: flex;
+	flex: 1;
+}
+.memberimg img{
+	width: 150px;
+	height: 150px;
+	margin: auto 0px auto 15px;
+}
+.memberdata{
+	display: flex;
+	flex: 3;
+	flex-direction: column;
+	padding-left: 15px;
+}
+.membername{
+	margin: 22px 0 0 0;
+}
+.memberemail{
+	margin: 0;
+}

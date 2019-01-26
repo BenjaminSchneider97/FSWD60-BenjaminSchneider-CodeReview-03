@@ -25,6 +25,8 @@
 		</nav>
 		<div id="team">
 		</div>
+		<div id="members">
+		</div>
 		<footer class="footer">
 			<div class="navbarbottom">
 				<ul class="ulistbottom">
@@ -43,10 +45,31 @@
 	<script src="json/Third_CodeReview_JSON.json"></script>
 
 	<script>
+
+		function displaymembers(members) {
+
+			for(i=0; i < teamMembers.length; i++){
+
+			document.getElementById("members").innerHTML +=`
+			<div class ="member">
+				<div class="memberimg">
+					<img class = "memberavatar" src="${teamMembers[i].image}">
+				</div>
+				<div class="memberdata">
+					<h2 class ="membername">Name:</h2>
+					<p>${teamMembers[i].name}</p>
+					<h2 class="memberemail">Email:</h2>
+					<p>${teamMembers[i].email}</p>
+				</div>
+			</div>
+			`
+			}
+		}
+
 		document.getElementById("team").innerHTML = `
 		<h1 class="teamheading">This is our team! (currently ${teamMembers.length} members)</h1>
-		${teamMembers}
 		`
+		displaymembers();
 	</script>
 </body>
 </html>
