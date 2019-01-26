@@ -43,26 +43,24 @@
 		</footer>
 	</div>
 	<script src="json/Third_CodeReview_JSON.json"></script>
-
 	<script>
-
 		function displaymembers(members) {
 
 			for(i=0; i < teamMembers.length; i++){
 
 			document.getElementById("members").innerHTML +=`
-			<div class ="member">
-				<div class="memberimg">
-					<img class = "memberavatar" src="${teamMembers[i].image}">
+				<div class ="member">
+					<div class="memberimg">
+						<img class = "memberavatar" src="${teamMembers[i].image}">
+					</div>
+					<div class="memberdata">
+						<h2 class ="membername">Name:</h2>
+						<p>${teamMembers[i].name}</p>
+						<h2 class="memberemail">Email:</h2>
+						<p>${teamMembers[i].email}</p>
+					</div>
 				</div>
-				<div class="memberdata">
-					<h2 class ="membername">Name:</h2>
-					<p>${teamMembers[i].name}</p>
-					<h2 class="memberemail">Email:</h2>
-					<p>${teamMembers[i].email}</p>
-				</div>
-			</div>
-			`
+				`
 			}
 		}
 

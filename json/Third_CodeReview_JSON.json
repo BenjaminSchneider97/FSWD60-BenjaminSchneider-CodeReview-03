@@ -1,12 +1,17 @@
-var teamMembers = [	
-		{"name":"Fran", 
+var teamMembers = [
+		{
+		 "name":"Fran", 
 		 "email":"fran@index.com",
-		 "image":"json/img/person1.png"},
-
-		{"name":"Bill",
+		 "image":"json/img/person1.png"
+		},
+		{
+		 "name":"Bill",
 		 "email":"bill@index.com",
-	 	 "image":"json/img/person2.png"},
-
-		{"name":"Fritz", 
+	 	 "image":"json/img/person2.png"
+	 	},
+		{
+		"name":"Fritz", 
 		 "email":"fritz@index.com",
-		 "image":"json/img/person3.png"}];
+		 "image":"json/img/person3.png"
+		}
+	];

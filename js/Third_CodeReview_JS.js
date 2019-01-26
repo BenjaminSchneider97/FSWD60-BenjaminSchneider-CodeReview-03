@@ -7,10 +7,8 @@ function calculateInsurancePerCountry(){
 		alert("More information needed");
 	}
 	else{
-
 		var country = document.getElementById("country").value;
 		var output = document.createElement("h1");
-
 		var select = document.querySelector("select");
 		var choice = select.value;
 
@@ -37,6 +35,8 @@ function calculateInsurancePerCountry(){
 
 var n = document.getElementById("btn");
 n.addEventListener("click", calculateInsurancePerCountry, false);
+
+
 
 
 
