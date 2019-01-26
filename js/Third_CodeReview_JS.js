@@ -7,6 +7,10 @@ function calculateInsurancePerCountry(){
 	if(name == "" || age == "" || hp ==""){
 		alert("More information needed");
 	}
+	//checks if car is older than zero
+	else if(age == 0){
+		alert("Your car has to be older than 0")
+	}
 	//if everything is filled
 	else{
 		var country = document.getElementById("country").value;
