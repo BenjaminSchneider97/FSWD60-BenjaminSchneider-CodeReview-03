@@ -30,17 +30,18 @@ body{
 .ulist li a{
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	margin-left: 10px;
 	padding: 3px 10px;
 	line-height: 50px;
 	font-size: 1.6em;
 }
 .ulist li a span{
-	color: #000;
+	color: #fff;
+	font-size: 1.25em;
 }
 .ulist li a:hover{
-	color: #000;
+	color: #fff;
 	transition: 0.3s;
 }
 .contentwrapper{
