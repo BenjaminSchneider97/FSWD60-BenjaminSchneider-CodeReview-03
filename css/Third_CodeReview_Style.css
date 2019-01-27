@@ -236,7 +236,7 @@ body{
 		font-size: 3em;
 	}
 }
-/* media query for tablet mode */
+/* media query for mobile mode */
 @media screen and (max-width: 500px){
 	.btnuoutput button{
 		width: 50%;
@@ -276,6 +276,9 @@ body{
 	.box{
 		flex-basis: 90%;
 		margin-bottom: 50px;
+	}
+	#members .member{
+		width: 90%;
 	}
 }
 /* styling for team page */
